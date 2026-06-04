@@ -12,6 +12,7 @@ SRC_URI += " \
             file://rsa_oem_dss_key.pem;sha256sum=64a379979200d39949d3e5b0038e3fdd5548600b2f7077a17e35422336075ad4 \
             file://rsa_pub_oem_dss_key.pem;sha256sum=40132a694a10af2d1b094b1cb5adab4d6b4db2a35e02d848b2b6a85e60738264 \
             file://user/ \
+            file://0001-lib-smbios-include-timestamp.h-for-U_BOOT_DMI_DATE.patch \
            "
 
 SOCSEC_SIGN_KEY ?= "${UNPACKDIR}/rsa_oem_dss_key.pem"
