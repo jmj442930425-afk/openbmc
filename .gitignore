@@ -3,3 +3,9 @@ customrc
 *.sw?
 .repo/
 .vscode/
+docs/
+CLAUDE.md
+.claude/
+.claudecode/
+.claude_settings.json
+OWNERS
